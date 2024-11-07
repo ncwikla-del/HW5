@@ -1,6 +1,6 @@
 /******************************************************************
  *
- *   YOUR NAME / SECTION NUMBER
+ *   Nick Cwikla / COMP272-001
  *
  *   Note, additional comments provided throughout this source code
  *   is for educational purposes
@@ -245,24 +245,19 @@ public class CuckooHash<K, V> {
 	 */
 
  	public void put(K key, V value) {
-
-		// ADD YOUR CODE HERE - DO NOT FORGET TO ADD YOUR NAME AT TOP OF FILE.
-		// Also make sure you read this method's prologue above, it should help
-		// you. Especially the two HINTS in the prologue.
-
-		return;
+		 // I wasn't able to figure this one out.
 	}
 
 
-	/**
-	 * Method get
-	 *
-	 * Retrieve a value in O(1) time based on the key because it can only 
-     * be in 1 of 2 locations
-	 *
-	 * @param key Key to search for
-	 * @return the found value or null if it doesn't exist
-	 */
+		/**
+         * Method get
+         *
+         * Retrieve a value in O(1) time based on the key because it can only
+         * be in 1 of 2 locations
+         *
+         * @param key Key to search for
+         * @return the found value or null if it doesn't exist
+         */
 
 	public V get(K key) {
 		int pos1 = hash1(key);
